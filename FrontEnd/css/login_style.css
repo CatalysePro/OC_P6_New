@@ -1,0 +1,292 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {						
+	max-width: 1140px;
+
+	margin:auto;
+	
+	
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+	line-height: 1;
+
+	/* border: solid 2px red; */
+}
+
+
+.main_container {
+    max-width: 1440px;
+    
+    display: flex;
+    flex-direction: column;
+	
+	margin: 0 auto;
+    min-height: 100vh;
+
+	background-color: #FFFEF8;
+	
+}
+
+
+header, main, footer {
+    width: 100%;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	
+
+	padding-top: 20px;
+
+	text-decoration: none !important;
+
+}
+
+/* a, nav, ul, li, h1 {
+
+	cursor: pointer;
+	text-decoration: none !important;
+	
+} */
+
+header a,
+nav a,
+ul a,
+li a,
+h1 a {
+    cursor: pointer;
+    text-decoration: none !important;
+	border-bottom: none;
+}
+
+/* a {
+
+	text-decoration: none !important;
+
+} */
+
+h1{
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 50px;
+
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size:10px;
+	letter-spacing: 0.1em;
+
+}
+
+nav {
+
+	margin-right: 50px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav li {
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+li:hover {
+	color: #B1663C;
+	cursor: pointer;
+}
+
+
+
+#portfolio_link a,
+#contact_link a {
+
+    color: #000 !important;
+    text-decoration: none !important;
+	
+}
+
+
+#portfolio_link a:hover,
+#contact_link a:hover {
+    color: #B1663C !important;
+}
+
+
+
+main {
+    flex: 1;
+	
+}
+
+
+
+main {
+	
+	/* border: solid 2px blue; */
+}
+
+#login-container {
+
+	text-align: center;
+
+	padding-top: 20px;
+
+	/* border: solid 2px orange; */
+}
+
+
+h2{
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: #1D6154
+}
+
+#login-form {
+
+	
+	box-sizing: border-box;
+	max-width: 379px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 0px;
+
+	/* border: solid 2px black; */
+
+
+}
+
+label {
+
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 5px;
+
+	color: #3D3D3D;
+	font-weight: bold; /* 500 on figma*/
+
+
+}
+
+input {
+
+	width: 98%;
+	height: 51px;
+
+	font-size : 14px;
+	/* box-shadow: 4px 4px 6px #808080; */
+	box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+	border: 0.1px solid lightgrey;
+
+}
+
+.btn {
+
+	width: 179px;
+	height: 36px;
+
+	align-content: center;
+
+	margin: 20px auto 0 auto;
+
+	border: solid 1px transparent;
+	border-radius: 60px;
+
+	color: white;
+	background-color: #1D6154;
+
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+
+	cursor: pointer;
+
+}
+
+.hypertxt_link {
+
+	margin-top: 30px;
+
+	color: black;
+
+}
+
+.pw_forgot a {
+
+	text-decoration: dotted !important;
+	text-decoration-color: black;
+
+}
+
+.input-error {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* managed by login.js */
+}
+
+.error_message {
+	text-align: center;
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* +++++++ Library SweetAlert2 ++++++++++ */
+
+.swal-confirm-button {
+    background-color: #1D6154 !important; /** working */
+	border-color: #B1663C !important; /*! not working */
+}
+
+.swal-confirm-button:hover {
+
+	background-color: #2C9683!important;
+}
+
+.swal2-icon svg {
+    fill: #1D6154 !important; /*! not working */
+}
+
+.swal2-icon-content svg {
+    fill: #1D6154 !important; /*! not working */
+}
+
+
+/* +++++++ Library SweetAlert2 ++++++++++ */
+
+footer {
+
+	height: 60px;
+
+	background-color: #ffff;
+
+	/* border: solid 2px green; */
+}
+
+
+footer nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin: 2em
+}
+
