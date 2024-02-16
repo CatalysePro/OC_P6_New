@@ -6,7 +6,7 @@ body, html {
 }
 
 body {						
-	max-width: 1140px;
+	/* max-width: 1140px; */
 
 	margin:auto;
 	
@@ -15,7 +15,8 @@ body {
 	font-size: 14px;
 	line-height: 1;
 
-	/* border: solid 2px red; */
+	background-color: #FFFEF8;
+	
 }
 
 
@@ -28,8 +29,6 @@ body {
 	margin: 0 auto;
     min-height: 100vh;
 
-	background-color: #FFFEF8;
-	
 }
 
 
@@ -49,12 +48,6 @@ header {
 
 }
 
-/* a, nav, ul, li, h1 {
-
-	cursor: pointer;
-	text-decoration: none !important;
-	
-} */
 
 header a,
 nav a,
@@ -66,11 +59,6 @@ h1 a {
 	border-bottom: none;
 }
 
-/* a {
-
-	text-decoration: none !important;
-
-} */
 
 h1{
 	display: flex;
@@ -136,19 +124,11 @@ main {
 }
 
 
-
-main {
-	
-	/* border: solid 2px blue; */
-}
-
 #login-container {
 
 	text-align: center;
 
 	padding-top: 20px;
-
-	/* border: solid 2px orange; */
 }
 
 
@@ -174,8 +154,6 @@ h2{
 
 	padding: 0px;
 
-	/* border: solid 2px black; */
-
 
 }
 
@@ -197,7 +175,7 @@ input {
 	height: 51px;
 
 	font-size : 14px;
-	/* box-shadow: 4px 4px 6px #808080; */
+	
 	box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
 	border: 0.1px solid lightgrey;
 
@@ -280,7 +258,7 @@ footer {
 
 	background-color: #ffff;
 
-	/* border: solid 2px green; */
+	
 }
 
 
