@@ -4,7 +4,11 @@ Code du projet 6 d'intégrateur web.
 
 Ce repo contient aussi le code backend de l'architecte Sophie Bluel. 
 
-Installation de node.js et npm préalable obligatoire.
+Installations de node.js et npm préalable obligatoires.
+
+Nota Bene : les navigateurs peuvent se comporter différemment selon qu'il s'agisse de la manipulation d'un repo distant
+ou d'une copie en local notamment en ce qui concerne de possibles fermetures intempestives des modales après la 
+validation des popups d'alerte confirmant la suppression ou l'ajout de photo.
 
 ## Information pour le lancer le code
 
