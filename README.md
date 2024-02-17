@@ -7,8 +7,10 @@ Ce repo contient aussi le code backend de l'architecte Sophie Bluel.
 Installations de node.js et npm préalable obligatoires.
 
 Nota Bene : les navigateurs peuvent se comporter différemment selon qu'il s'agisse de la manipulation d'un repo distant
-ou d'une copie en local notamment en ce qui concerne de possibles fermetures intempestives des modales après la 
-validation des popups d'alerte confirmant la suppression ou l'ajout de photo.
+ou d'une copie en local ET/OU de LIVE SERVER via VS CODE notamment en ce qui concerne de possibles fermetures intempestives 
+des modales après la validation des popups d'alerte confirmant la suppression ou l'ajout de photo.
+
+Dans tous les cas, privilégier le lancement du site depuis son répertoire plutôt que par LIVE SERVER.
 
 ## Information pour le lancer le code
 
