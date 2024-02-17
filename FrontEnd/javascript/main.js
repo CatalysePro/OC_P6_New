@@ -805,6 +805,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // reconfirm back overlay
       backOverlay.style.display = 'block';
 
+      // reconfirm AddPhoto Modal appearence //! do not work with distant repo - same for 1st modal with delete fonction
+      addPhotoDiv.style.display = ('block');
+
   
     } catch (error) {
       console.error('Work addition Error:', error);
